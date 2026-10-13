@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420" fill="none">
+  <!-- phone frame -->
+  <rect x="4" y="4" width="292" height="412" rx="34" fill="#0A0A0B" stroke="#C1974B" stroke-width="2"/>
+  <rect x="18" y="20" width="264" height="380" rx="20" fill="#F2EEE4"/>
+
+  <!-- status bar -->
+  <text x="34" y="42" font-family="'JetBrains Mono', monospace" font-size="9" fill="#151517" letter-spacing="1">9:41</text>
+  <circle cx="252" cy="38" r="3" fill="#7E1420"/>
+  <circle cx="264" cy="38" r="3" fill="#C1974B"/>
+
+  <!-- app wordmark -->
+  <text x="34" y="76" font-family="'Cinzel', serif" font-size="20" font-weight="600" fill="#7E1420">La pépite</text>
+  <line x1="34" y1="86" x2="90" y2="86" stroke="#C1974B" stroke-width="1.5"/>
+
+  <!-- search / alert bar -->
+  <rect x="34" y="102" width="232" height="30" rx="15" fill="#E9E3D3" stroke="#C1974B" stroke-width="1"/>
+  <circle cx="52" cy="117" r="4" fill="none" stroke="#7E1420" stroke-width="1.4"/>
+  <line x1="55" y1="120" x2="59" y2="124" stroke="#7E1420" stroke-width="1.4"/>
+  <text x="70" y="121" font-family="'Work Sans', sans-serif" font-size="9" fill="#4A463C">Autour de moi, 5 km</text>
+
+  <!-- listing card 1 -->
+  <rect x="34" y="150" width="232" height="78" rx="10" fill="#FFFFFF" stroke="#E3DCC9" stroke-width="1"/>
+  <rect x="46" y="162" width="54" height="54" rx="6" fill="#D9CBA3"/>
+  <text x="110" y="176" font-family="'Work Sans', sans-serif" font-size="10" font-weight="600" fill="#151517">Boulangerie Odette</text>
+  <text x="110" y="190" font-family="'Work Sans', sans-serif" font-size="8.5" fill="#7E1420">Nouveau produit • 320 m</text>
+  <rect x="110" y="198" width="76" height="14" rx="7" fill="#F3E7C9"/>
+  <text x="118" y="208" font-family="'JetBrains Mono', monospace" font-size="7.5" fill="#7E1420">-20% aujourd'hui</text>
+
+  <!-- listing card 2 -->
+  <rect x="34" y="238" width="232" height="78" rx="10" fill="#FFFFFF" stroke="#E3DCC9" stroke-width="1"/>
+  <rect x="46" y="250" width="54" height="54" rx="6" fill="#CBB98A"/>
+  <text x="110" y="264" font-family="'Work Sans', sans-serif" font-size="10" font-weight="600" fill="#151517">Fleuriste Marceau</text>
+  <text x="110" y="278" font-family="'Work Sans', sans-serif" font-size="8.5" fill="#4A463C">Il y a 12 min • 1,1 km</text>
+  <circle cx="118" cy="296" r="3" fill="#7E1420"/>
+  <text x="126" y="299" font-family="'Work Sans', sans-serif" font-size="8" fill="#4A463C">Alerte géolocalisée envoyée</text>
+
+  <!-- bottom nav -->
+  <rect x="18" y="356" width="264" height="44" rx="0" fill="#F2EEE4"/>
+  <line x1="18" y1="356" x2="282" y2="356" stroke="#E3DCC9" stroke-width="1"/>
+  <circle cx="80" cy="378" r="4" fill="#7E1420"/>
+  <rect x="140" y="373" width="20" height="10" rx="3" fill="none" stroke="#C1974B" stroke-width="1.3"/>
+  <circle cx="220" cy="378" r="4" fill="none" stroke="#4A463C" stroke-width="1.3"/>
+</svg>

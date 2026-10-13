@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CB Software Labs — Créations d'applications mobiles</title>
+<meta name="description" content="CB Software Labs conçoit des applications mobiles. Découvrez La pépite et nos prochaines créations.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <img src="assets/logo.svg" alt="" class="mark">
+      <span class="brand-name">CB <span>Software</span> Labs</span>
+    </a>
+    <nav class="primary-nav" id="primary-nav">
+      <ul>
+        <li><a href="#creations">Créations</a></li>
+        <li><a href="#studio">Le studio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <img src="assets/logo.svg" alt="" class="hero-seal">
+    <div class="wrap">
+      <div class="hero-content">
+        <span class="eyebrow">Studio mobile</span>
+        <h1>Nos <em>idées</em> deviennent des applications.</h1>
+        <p class="hero-lede">Découvrez ce que nous construisons.</p>
+        <div class="cta-row">
+          <a href="#creations" class="btn">Voir nos créations</a>
+          <a href="#contact" class="btn btn-ghost">Nous écrire</a>
+        </div>
+      </div>
+    </div>
+    <span class="scroll-cue">Défiler</span>
+  </section>
+
+  <section class="creations" id="creations">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Créations</span>
+        <h2>Nos applications</h2>
+      </div>
+
+      <div class="creation-grid">
+
+        <article class="creation-card creation-featured">
+          <div class="creation-media">
+            <img src="assets/mockup-lapepite.svg" alt="Aperçu de l'application La pépite">
+          </div>
+          <div class="creation-body">
+            <span class="status status-live">En développement</span>
+            <h3>La pépite</h3>
+            <p>Les nouveautés des commerces de proximité, en temps réel et près de chez vous. Alertes géolocalisées dès qu'un produit correspond à vos envies.</p>
+            <ul class="tag-list">
+              <li>Petites annonces</li>
+              <li>Géolocalisation</li>
+              <li>Freemium</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="creation-card creation-soon">
+          <div class="creation-media creation-media-soon" aria-hidden="true">
+            <span class="soon-mark">+</span>
+          </div>
+          <div class="creation-body">
+            <span class="status status-soon">Bientôt</span>
+            <h3>Prochain projet</h3>
+            <p>Une nouvelle application rejoindra ce catalogue prochainement.</p>
+          </div>
+        </article>
+
+        <article class="creation-card creation-soon">
+          <div class="creation-media creation-media-soon" aria-hidden="true">
+            <span class="soon-mark">+</span>
+          </div>
+          <div class="creation-body">
+            <span class="status status-soon">À venir</span>
+            <h3>En préparation</h3>
+            <p>D'autres créations sont en cours de cadrage.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="studio" id="studio">
+    <div class="wrap">
+      <div class="studio-inner">
+        <span class="eyebrow">Le studio</span>
+        <p>CB Software Labs est un studio de développement d'applications mobiles, du cadrage au lancement sur les stores, avec un suivi dans la durée.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="contact-inner">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2>Un projet d'application mobile à cadrer&nbsp;?</h2>
+        </div>
+        <a href="mailto:contact@cb-software-labs.com" class="contact-email">contact@cb-software-labs.com</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.svg" alt="" class="mark">
+      <span>CB Software Labs</span>
+    </div>
+    <span class="footer-tag">© 2026 — Studio de développement d'applications mobiles</span>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const nav = document.getElementById('primary-nav');
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+</body>
+</html>

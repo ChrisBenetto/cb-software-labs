@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <g>
+    <!-- Outer seal hexagon -->
+    <polygon points="60,4 108,30 108,90 60,116 12,90 12,30"
+      stroke="#C1974B" stroke-width="2" fill="none"/>
+    <!-- Inner seal hexagon -->
+    <polygon points="60,16 98,36.5 98,83.5 60,104 22,83.5 22,36.5"
+      stroke="#C1974B" stroke-width="1" opacity="0.45" fill="none"/>
+
+    <!-- Circuit trace ticks along the outer edge -->
+    <path d="M60,4 L60,-2" stroke="#7E1420" stroke-width="0" />
+
+    <!-- Vertex "via" nodes -->
+    <circle cx="60" cy="4" r="2.6" fill="#7E1420"/>
+    <circle cx="108" cy="30" r="2.6" fill="#7E1420"/>
+    <circle cx="108" cy="90" r="2.6" fill="#7E1420"/>
+    <circle cx="60" cy="116" r="2.6" fill="#7E1420"/>
+    <circle cx="12" cy="90" r="2.6" fill="#7E1420"/>
+    <circle cx="12" cy="30" r="2.6" fill="#7E1420"/>
+
+    <!-- Monogram -->
+    <text x="60" y="70" text-anchor="middle" font-family="'Cinzel', 'Times New Roman', serif"
+      font-size="38" font-weight="600" letter-spacing="1" fill="#F2EEE4">CB</text>
+
+    <!-- Underline accent, circuit-trace style -->
+    <path d="M38,80 H52 L58,86 H62 L68,80 H82" stroke="#C1974B" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="38" cy="80" r="1.8" fill="#C1974B"/>
+    <circle cx="82" cy="80" r="1.8" fill="#C1974B"/>
+  </g>
+</svg>
